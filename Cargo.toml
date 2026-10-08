@@ -1,0 +1,10 @@
+[package]
+name = "solana-escrow-program"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+borsh = "1.8.1"
+solana-program = "5.1.0"
+solana-system-interface = { version = "3.3", features = ["bincode"] }
+spl-token-interface = "3.0.0"
